@@ -1,0 +1,22 @@
+{
+    "identifier": "chenhaohu.timestamp.to.time",
+    "version": "0.1.0",
+    "category": "translate",
+    "name": "timestamp to date format",
+    "summary": "",
+    "icon": "",
+    "author": "github.com/ChenHaoHu",
+    "homepage": "https://github.com/ChenHaoHu/bob-plugin-timestamp-to-time",
+    "appcast": "https://raw.githubusercontent.com/ChenHaoHu/bob-plugin-timestamp-to-time/main/appcast.json",
+    "minBobVersion": "0.5.0",
+    "options": [
+        {
+            "identifier": "date_format",
+            "type": "text",
+            "title": "date format",
+            "defaultValue": "Y-M-D h:m:s",
+            "desc": "Y year、M month、D day、h hour、m minutes、s seconds"
+        }
+    ]
+}
+
