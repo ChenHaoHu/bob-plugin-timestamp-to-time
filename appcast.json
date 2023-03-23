@@ -2,6 +2,13 @@
   "identifier": "chenhaohu.timestamp.to.time",
   "versions": [
     {
+      "version": "1.0.6",
+      "desc": "icon",
+      "sha256": "19dc539616c1cbb0347f1396699641a7e687736acd38b1d99c14c15b5b5f60be",
+      "url": "https://github.com/ChenHaoHu/bob-plugin-timestamp-to-time/releases/download/v1.0.6/chenhaohu-timestamp-to-time-1.0.6.bobplugin",
+      "minBobVersion": "0.5.0"
+    },
+    {
       "version": "1.0.5",
       "desc": "update actions",
       "sha256": "9508a0a2b69378757726f368acf64d5ff8904bc567341736fb8ca03dbce42361",
