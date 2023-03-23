@@ -27,7 +27,7 @@ jobs:
         run: sed -i -e "s/0\.1\.0/${{ steps.get_version.outputs.version-without-v }}/" src/info.json
 
       - name: Package plugin
-        run: mkdir release && zip -j -r release/chenhaohu-timestamp-to-time-${{ steps.get_version.outputs.version-without-v }}.bobplugin ./src/*
+        run: zip -j -r release/chenhaohu-timestamp-to-time-${{ steps.get_version.outputs.version-without-v }}.bobplugin ./src/*
 
       - run: git checkout -- src/
 
