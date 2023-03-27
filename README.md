@@ -5,4 +5,4 @@ bob-plugin-timestamp-to-time
 
 这个对研发或者数据工程师挺有用的
 
-(demo)["./demo.png"]
+![demo]('demo.png')
